@@ -48,7 +48,7 @@ def set_goals():
     goals_dict={}
     while True:
         goal=input("Set your goal for today:\n")
-        times=int(input("How many time you should, do it:\n"))
+        times=int(input("How many time you should do it:\n"))
         goals_dict[goal]=times
         choise=input('Write "end" to quit or "add" to add a new goal:\n')
         if choise=="end":
